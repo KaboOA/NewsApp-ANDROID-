@@ -9,7 +9,8 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
 
-    @GET("top-headlines?country=eg&apiKey=8ed4a86ffcc24da2b91f2183831bc3fc")
+//for apikey visit https://newsapi.org
+    @GET("top-headlines?country=eg&apiKey=YOUR_API_KEY")
     Single<Response> getNews();
 
 }
